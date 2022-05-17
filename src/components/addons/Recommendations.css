@@ -1,0 +1,18 @@
+.wrapper{
+    width: auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop-down-div{
+    width: 40vh;
+    height: 5vh;
+    outline: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.drop-down-div > select{
+    border: none;
+}

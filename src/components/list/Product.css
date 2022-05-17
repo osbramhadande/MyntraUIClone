@@ -1,0 +1,96 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h4, h5, p {
+  margin: 0;
+}
+
+.card-container{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 210px;
+    height: 347.67px;
+    box-shadow: 0 2px 20px rgb(218, 217, 217);
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 0;
+    padding-top: 0;
+    transition: 700ms;
+}
+.card-container:hover{
+   transform: scale(0.2em);
+}
+.card-info{
+    display: grid;
+    width: 100%;
+    
+    
+    
+}
+.productlist-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+    padding-left: 5vw;
+}
+.card-image  img{
+    
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+h4 p h5{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.card-container:hover{
+
+}
+
+.strip{
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    border-radius: 1.5em;
+    opacity: 0.7;
+    font-size: 0.7em;
+    font-weight: 600;
+    width: 70px;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.strip-star{
+    height: 0.7em;
+    width: 0.7em;
+    background-color: transparent;
+}
+.similar{
+    position: absolute;
+    width: 1.8em;
+    height:1.8em;
+    
+    border-radius: 50%;
+    
+    background-color: white;
+    bottom: 38%;
+    right: 3%;
+    transition: 600ms;
+}
+.similar >img {
+    width: 1.5em;
+    height:1.5em;
+}
+.similar:hover{
+    width: 6em;
+    border-radius: 5px;
+    border: 2px solid rgb(32, 39, 221);
+    opacity: 0.8;
+}
